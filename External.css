@@ -18,7 +18,8 @@ body{
 }
 .footer{
     text-align: center;
-    display: block;
+    display: inline-block;
+    vertical-align: top;
     position: fixed;
     left:0;
     bottom:0;
