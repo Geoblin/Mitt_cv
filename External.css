@@ -16,19 +16,20 @@ body{
 .row{
     margin-bottom: 3rem;
 }
-.footer{
+footer{
     text-align: center;
-    display: inline-block;
-    vertical-align: top;
-    position: fixed;
-    left:0;
-    bottom:0;
 }
-.footerlinks{
+a{
     text-decoration: none;
-    color: darkblue;
     font-weight: bold;
+    justify-content: space-between;
+}
+footer li{
+    display: inline-block;
 }
 a:hover{
-    color: rgb(72, 72, 161);
+    color: darkblue;
+}
+a.card-link{
+    margin: 0px 0px 0px 16px;
 }
